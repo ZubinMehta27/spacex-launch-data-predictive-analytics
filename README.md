@@ -206,9 +206,3 @@ cd spacex-launch-analysis
 # Install dependencies
 pip install -r requirements.txt
 ```
-
----
-
-Would you like me to also generate a **smaller “hero banner” image (banner_spacex.png)** that visually combines a rocket + data graph style
-— so your GitHub README starts with an eye-catching visual header?
-(It’ll make your project stand out like a real published portfolio project.)
