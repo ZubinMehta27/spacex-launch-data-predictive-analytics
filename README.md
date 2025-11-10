@@ -54,15 +54,15 @@ It covers everything from **data collection and wrangling** to **exploratory dat
 
 #### Launch Success Rate by Orbit Type
 
-![Orbit Success Rate](figures/eda/orbit_success_rate.png)
+![Orbit Success Rate](figures/eda/OrbitType_SuccessRate.png)
 
 #### Payload vs Launch Success
 
-![Payload vs Success](figures/eda/payload_vs_success.png)
+![Payload vs Success](figures/eda/LaunchSite_vs_PayloadMass.png)
 
 #### Launch Success by Year
 
-![Yearly Success Trend](figures/eda/yearly_success_trend.png)
+![Yearly Success Trend](figures/eda/SpaceX_AvgSuccessRate_By_Year.png)
 
 ---
 
@@ -88,7 +88,8 @@ python interactive.py
 
 ### Plotly Dash Interactive Dashboard
 
-![Dashboard Screenshot](figures/eda/dash_dashboard.png)
+![Dashboard Screenshot](figures/eda/SpaceX_dashboard_pie_chart.png)
+![Dashboard Screenshot](figures/eda/SpaceX_dashboard_scatter.png)
 
 **Features:**
 
@@ -120,10 +121,10 @@ Then visit: [http://127.0.0.1:8050](http://127.0.0.1:8050)
 
 | Model                  | Visualization                                                                    |
 | ---------------------- | -------------------------------------------------------------------------------- |
-| Logistic Regression    | ![LogReg Confusion Matrix](figures/confusion_matrix/cm_logistic_regression.png)  |
-| Support Vector Machine | ![SVM Confusion Matrix](figures/confusion_matrix/cm_svm.png)                     |
-| Decision Tree          | ![Decision Tree Confusion Matrix](figures/confusion_matrix/cm_decision_tree.png) |
-| K-Nearest Neighbors    | ![KNN Confusion Matrix](figures/confusion_matrix/cm_knn.png)                     |
+| Logistic Regression    | ![LogReg Confusion Matrix](figures/confusion_matrix/LogReg.png)  |
+| Support Vector Machine | ![SVM Confusion Matrix](figures/confusion_matrix/SVM.png)                     |
+| Decision Tree          | ![Decision Tree Confusion Matrix](figures/confusion_matrix/Tree.png) |
+| K-Nearest Neighbors    | ![KNN Confusion Matrix](figures/confusion_matrix/KNN.png)                     |
 
 ---
 
